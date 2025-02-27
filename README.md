@@ -31,17 +31,31 @@ The application provides interactive visualizations that display both full-range
 
 ## Folder Structure:
 StockPredictorApp/
+
 ├── app/
+
 │   └── main_window.py       # PyQt5 GUI code
+
 ├── models/
+
 │   ├── __init__.py
+
 │   ├── lstm_model.py        # LSTM model definition
+
 │   ├── gru_model.py         # GRU model definition
+
 │   ├── regression_models.py # Ridge and Lasso implementations
+
 │   ├── xgb_model.py         # XGBoost related functions
+
 │   └── rf_model.py          # Random Forest related functions
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   └── data_fetcher.py      # Data fetching, preprocessing, and sequence creation
+
 ├── requirements.txt         # List of required packages
+
 └── main.py                  # Application entry point
